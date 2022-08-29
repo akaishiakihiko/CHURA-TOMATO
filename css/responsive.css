@@ -23,6 +23,9 @@
   header .header-title {
     width: 100%;
   }
+  header .header-title .logo-center {
+    width: 100%;
+  }
   header .header-title .header-logo {
     margin-left: 20px;
   }
@@ -55,6 +58,7 @@
     padding: 10px;
   }
   main .small-flex .small {
+    width: 100%;
     padding-left: 0px;
   }
   main .small-flex .small img {
@@ -94,6 +98,7 @@
     width: 100%;
     height: 800px;
     margin: 0 auto;
+    background-position: center center;
   }
   main .story .story-text {
     width: 100%;
@@ -154,7 +159,9 @@
     padding: 50px 10px;
   }
   main .hearts {
+    width: 100%;
     margin-bottom: 50px;
+    background-position: center center;
   }
   main .cook {
     width: 100%;
@@ -171,7 +178,6 @@
   }
   footer {
     width: 100%;
-    height: 300;
   }
   footer .footer-top .footer-flex {
     display: flex;
@@ -191,8 +197,8 @@
   footer .footer-top .footer-flex .footer-icon ul {
     margin-left: 0px;
   }
-  footer .footer-center {
-    display: none;
+  footer .footer-top .footer-flex .footer-icon li {
+    padding-left: 20px;
   }
   footer .loopSlide img {
     width: 100%;

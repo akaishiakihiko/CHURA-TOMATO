@@ -35,11 +35,16 @@
   // ------------------------------
 
   header {
+
     width: 100%;
     margin: 0 auto;
 
     .header-title {
       width: 100%;
+
+      .logo-center {
+        width: 100%;
+      }
 
       .header-logo {
         margin-left: 20px;
@@ -84,6 +89,7 @@
       padding: 10px;
 
       .small {
+        width: 100%;
         padding-left: 0px;
 
         img {
@@ -103,6 +109,7 @@
     }
 
     .concept {
+
       width: 100%;
       height: 800px;
       padding-bottom: 50px;
@@ -129,6 +136,7 @@
       width: 100%;
       height: 800px;
       margin: 0 auto;
+      background-position: center center;
 
       .story-text {
         width: 100%;
@@ -141,8 +149,6 @@
           padding-left: 0px;
           margin: 0 auto;
         }
-
-        h3 {}
 
         p {
           text-align: justify;
@@ -203,7 +209,9 @@
     }
 
     .hearts {
+      width: 100%;
       margin-bottom: 50px;
+      background-position: center center;
     }
 
     .cook {
@@ -231,7 +239,6 @@
   // ------------------------------
   footer {
     width: 100%;
-    height: 300;
 
     .footer-top {
       .footer-flex {
@@ -253,12 +260,12 @@
           ul {
             margin-left: 0px;
           }
+
+          li {
+            padding-left: 20px;
+          }
         }
       }
-    }
-
-    .footer-center {
-      display: none;
     }
 
     .loopSlide img {

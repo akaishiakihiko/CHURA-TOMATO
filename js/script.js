@@ -54,6 +54,12 @@ const options = {
 };
 
 
+
+
+
+
+
+
 //スライドイン 上に//
 $(function () {
   const fade_bottom = 50; // 画面下からどの位置でフェードさせるか(px)
