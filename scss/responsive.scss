@@ -211,7 +211,10 @@
     .hearts {
       width: 100%;
       margin-bottom: 50px;
-      background-position: center center;
+
+      img {
+        background-position: center center;
+      }
     }
 
     .cook {
